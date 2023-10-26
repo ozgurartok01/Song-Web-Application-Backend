@@ -1,0 +1,27 @@
+{
+  "name": "codee",
+  "version": "1.0.0",
+  "description": "Deneme",
+  "main": "play.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon play.js"
+  },
+  "author": "Ozgur",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "connect-mongodb-session": "^3.1.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "express-session": "^1.17.3",
+    "mongodb": "^6.2.0",
+    "mongoose": "^7.6.3",
+    "pug": "^3.0.2"
+  }
+}
